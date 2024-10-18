@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #7e7e7e;
+  --primary-color: #00ff15;
+  --secondary-color: #ff00ff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Barrio", system-ui;
+}
