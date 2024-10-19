@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import funtobers from "../data/funtobers";
+import { Link } from 'react-router-dom'
+import funtobers from '../data/funtobers'
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
         {funtobers.map((funtober) => {
           return (
             <div
-              key={funtober.name}
+              key={funtober.id}
               className="flex justify-center items-center  rounded-xl "
             >
               <Link to={funtober.link}>
@@ -26,7 +26,7 @@ const Home = () => {
                 />
               </Link>
             </div>
-          );
+          )
         })}
       </div>
       <footer className="p-10 flex items-center flex-col">
@@ -45,14 +45,14 @@ const Home = () => {
           </a>
         </div>
         <p className="text-center text-text text-2xl">
-          Made with ❤️ by{" "}
+          Made with ❤️ by{' '}
           <a
             className="text-secondary hover:underline"
             href="https://twitter.com/masabinhok"
           >
             Sabin Shrestha
-          </a>{" "}
-          and{" "}
+          </a>{' '}
+          and{' '}
           <a
             className="text-secondary hover:underline"
             href="https://github.com/masabinhok/funtober/graphs/contributors"
@@ -62,7 +62,7 @@ const Home = () => {
         </p>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

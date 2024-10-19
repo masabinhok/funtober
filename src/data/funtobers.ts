@@ -1,72 +1,85 @@
-import { spendElonMoney } from "../assets";
+import { spendElonMoney } from '../assets'
 
 export interface IFuntober {
-  name: string;
-  link: string;
-  imageUrl: string;
+  id: number
+  name: string
+  link: string
+  imageUrl: string
 }
 
 const funtobers: IFuntober[] = [
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 1,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 2,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 3,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 4,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 5,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 6,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 7,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 8,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 9,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 10,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 11,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
   {
-    name: "Spend Elon Money",
-    link: "/spend-elon-money",
+    id: 12,
+    name: 'Spend Elon Money',
+    link: '/spend-elon-money',
     imageUrl: spendElonMoney,
   },
-];
+]
 
-export default funtobers;
+export default funtobers
